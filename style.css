@@ -1,0 +1,87 @@
+body {
+    color:white;
+    background:rgb(68, 0, 68);
+    margin: 2px
+     } 
+     body{
+        font-family: "Caveat", cursive;
+    }
+    body{
+        margin-bottom:100px;
+    }
+    
+    header {
+    border-bottom: solid 7px rgb(4, 4, 133);
+    padding: 18px;
+    font-size: 45px;
+    color:white;
+    }
+    
+    .chamada{
+    background: rgb(41,32,72);
+    padding-bottom:80px;
+    padding-top:80px;
+    display: flex;
+    justify-content:center;
+    border-bottom: solid 7px darkblue;
+    }
+    .chamada-texto{
+    margin-right: 5%;
+    }
+    
+    h1{
+        font-size: 43px;
+    }
+    
+    p{
+        font-size: 38px;
+    }
+    
+    
+    .categoria-videos{ 
+        display: flex;
+        overflow-x: auto;
+        gap: 20px;
+    }
+    
+    .categoria{
+        padding-left: 18px;
+        padding-right: 18px;
+        margin-top: 50px;
+    }
+    
+    .categoria-videos img{
+    opacity: 0.3;
+    height:200px;
+    }
+    .categoria-videos img:hover {
+    opacity:1.0;
+    border: 7px solid darkblue;
+    }
+    .categoria h2{
+        color: white;
+        font-size: 40;
+    }
+    
+    .aprofundar{
+        display: flex;
+        overflow-x:auto;
+        gap: 20px;
+    }
+    .aprofundando{
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-top:50px;
+    }
+    .aprofundar img{
+        opacity: 0.3;
+        height: 200px;
+    }
+    .aprofundar img:hover{
+        opacity:1.0;
+        border: 6px solid darkblue;
+    }
+    .aprofundando h3{
+        color: rgb(255, 255, 255);
+        font-size: 40;
+    }
